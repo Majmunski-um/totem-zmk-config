@@ -2,7 +2,7 @@ include:
   - board:  xiao_ble
     shield: totem_dongle
   - board:  xiao_ble
-    shield: totem_right
+    shield: settings_reset
   - board:  xiao_ble
     shield: my_totem
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
